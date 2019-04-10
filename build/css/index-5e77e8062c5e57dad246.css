@@ -1,0 +1,28 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: #ccc;
+    transition:1s all;
+}
+.box:hover{
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.div{
+    width: 200px;
+    height: 200px;
+    /* background: url('../imgs/cert1.jpg') no-repeat;
+    background-size: contain; */
+}
+.box {
+  color: blue;
+}
+.div img {
+  width: 100%;
+  transition: 1s all;
+}
+.div img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+

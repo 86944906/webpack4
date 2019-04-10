@@ -1,0 +1,15 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: #ccc;
+    transition:1s all;
+}
+.box:hover{
+    transform: rotate(90deg);
+}
+.div{
+    width: 200px;
+    height: 200px;
+    /* background: url('../imgs/cert1.jpg') no-repeat;
+    background-size: contain; */
+}

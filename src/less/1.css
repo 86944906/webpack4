@@ -1,0 +1,10 @@
+.box {
+  color: blue;
+}
+.div img {
+  width: 100%;
+  transition: 1s all;
+}
+.div img:hover {
+  transform: scale(1.2);
+}
